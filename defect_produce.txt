@@ -1,0 +1,19 @@
+Defect Title: More than expected amount got deducted when the fund is transferred from A to B.
+Ex: initial amount in an account is Rs15000, after transfer of 3000, the expected account balance should be Rs.12000
+
+Expected Result: After the transfer of 3000, the expected account balance should be Rs.12000
+
+Actual Result: After the transfer of 3000, the actual account balance became Rs.9000
+
+Steps to Reproduce Defect:
+--------------------------
+1] Lauch browser
+2] Type URL
+3] Enter the respective credentials
+4] Click on the money transfer tab
+5] Enter the details of the receipient
+6] Before sending it over, verification of the sender is done
+7] One type password is generated or a passcode which is known only to the user.
+8] Money is transferred.
+9] Notification will come as well as the user can go to the check balance section to check there balancance.
+10] The user can check there past transactions also to keep a track on there activities.
